@@ -31,9 +31,7 @@ const Footer = () => {
             Ready to find your next tech superstar or looking for your next role? Get in touch with us and let's create your tech symphony together.
           </p>
         </div>
-
-        
-           
+        <div className="mb-12">
             {/* Social media icons */}
             <div className="flex justify-center space-x-4">
               <a href="#" className="group/social w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center hover:scale-110 transition-transform duration-300 hover:shadow-lg hover:shadow-blue-500/30">
@@ -54,7 +52,7 @@ const Footer = () => {
                 </svg>
               </a>
             </div>
-          
+          </div>
 
        
         {/* Enhanced copyright section */}
